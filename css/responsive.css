@@ -1,0 +1,102 @@
+@media (max-width: 1280px) {
+    .title {
+        font-size: 80px;
+        margin-left: 30px;
+    }
+    .skill .skill_list {
+        right: 10%;
+    }
+    .outro h1 {
+        white-space: wrap;
+   }
+   .work .title {
+        position: absolute;
+        top: 10%;
+    }
+    .renewal_title {
+        font-size: 25px;
+    }
+    .swiper {
+        width: 300px;
+        height: 300px;
+        right: 100px;
+    }
+    .swiperbtn {
+        gap: 300px;
+        right: 60px;
+        bottom: 310px;
+    }
+    .detailpage {
+        width: 350px;
+        height: 350px;
+    }
+}
+@media (max-width: 500px) {
+    .title {
+        font-size: 50px;
+    }
+    p {
+        font-size: 25px;
+    }
+    li {
+        font-size: 20px;
+    }
+    .skill .skill_list {
+        right: 0;
+    }
+    .work .title {
+        margin-left: 40px;
+    }
+    .renewal_title {
+        font-size: 20px;
+        top: 30%;
+        right: 23%;
+    }
+    .mainpage {
+        top: 45%;
+        right: 15%;
+        flex-direction: column;
+        max-width: 300px;
+        height: 300px;
+        gap: 0;
+    }
+    .mainpage .process {
+        height: 150px;
+    }
+    .mainpage .renewal {
+        height: 150px;
+    }
+    .mainpage .process .processbtn,
+    .mainpage .renewal .gobtn {
+        font-size: 16px;
+    }
+    .cafe24 {
+        width: 300px;
+        right: 15%;
+    }
+    .cafe24txt {
+        font-size: 20px;
+    }
+    /* .cafe_title {
+        right: 47%;
+    } */
+    .swiper {
+        width: 300px;
+        height: 350px;
+        position: absolute;
+        top: 38%;
+        right: 50px;
+    }
+    .swiper-btn-prev,
+    .swiper-btn-next {
+        display: none;
+    }
+    .detailpage {
+        width: 300px;
+        height: 300px;
+        top: 40%;
+        right: 15%;
+        white-space: nowrap;
+    }
+
+}
