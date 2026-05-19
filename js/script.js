@@ -3,7 +3,7 @@ $(document).ready(function () {
     $('#fullpage').fullpage({
         navigation: true,
         scrollingSpeed: 1000,
-        anchors: ['first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'seventh'],
+        anchors: ['first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'seventh', 'eighth'],
 
         afterLoad: function (anchorLink, index) {
             const $header = $('header');
